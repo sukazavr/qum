@@ -1,6 +1,6 @@
 {
   "name": "qum",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Developer framework, API and CLI for creating and running \"deals\"",
   "main": "./lib/index.js",
   "repository": {
