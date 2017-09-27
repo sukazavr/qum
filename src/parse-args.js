@@ -1,5 +1,4 @@
 import yargsParser from 'yargs-parser'
-
 import findDealPath from './find-deal-path.js'
 
 

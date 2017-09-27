@@ -1,8 +1,19 @@
 #!/usr/bin/env node
 
+import babelPresetEnv from 'babel-preset-env'
 import babelRegister from 'babel-register'
-
 import parseArgs from '../parse-args'
+
+
+babelRegister({
+	'presets': [
+		[ babelPresetEnv, {
+			'targets': {
+				'node': true
+			}
+		} ]
+	]
+})
 
 const { args, dealPath } = parseArgs()
 
